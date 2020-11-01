@@ -8,7 +8,7 @@ Version: Revision: 0.1
 ## Interpretation
 isis_db_visualize.py python3 script converts [JUNOS "show isis database detail | display json"](https://www.juniper.net/documentation/en_US/bti-series/bti78004.3/topics/reference/general/r-7800-cliref-show-isis-database.html) output into dot format that can visualized using [Graphviz](https://graphviz.org/)
 
-## Sample .png generated from [sample dot file](samples/isis_db.dot)
+## Sample .png auto generated from [sample dot file](samples/isis_db.dot)
 <fig>
 <figcaption text-align: "center"> isis_db.png </figcaption>
 <img src = "samples/isis_db.png" alt = "missing" />
@@ -29,7 +29,7 @@ isis_db_visualize.py python3 script converts [JUNOS "show isis database detail |
 <img src = "images/cmd-convert.png" alt = "missing" />
 </fig2><br>
 
-##Graphviz Install
+## Graphviz Install
 Graphiz can be easily installed on your choice of operating system as shown [here](https://graphviz.org/download/)
 Caveats
 * Windows 10 Install is avilable [here](https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/Win32/)
