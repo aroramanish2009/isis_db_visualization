@@ -1,0 +1,1311 @@
+{
+    "isis-database-information" : [
+    {
+        "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                        "junos:style" : "detail"
+                       },
+        "isis-database" : [
+        {
+            "level" : [
+            {
+                "data" : "1"
+            }
+            ]
+        },
+        {
+            "level" : [
+            {
+                "data" : "2"
+            }
+            ],
+            "isis-database-entry" : [
+            {
+                "lsp-id" : [
+                {
+                    "data" : "MX-BR01.00-00"
+                }
+                ],
+                "sequence-number" : [
+                {
+                    "data" : "0x18"
+                }
+                ],
+                "checksum" : [
+                {
+                    "data" : "0xae59"
+                }
+                ],
+                "remaining-lifetime" : [
+                {
+                    "data" : "715"
+                }
+                ],
+                "isis-node-segment" : [
+                {
+                }
+                ],
+                "isis-neighbor" : [
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "QFX-BR02.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-PE01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-RR01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-PE02.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                }
+                ],
+                "isis-prefix" : [
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.0/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.2/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.4/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.6/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.8/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "192.168.3.10/32"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "0"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::2/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::4/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::6/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::8/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "lsp-id" : [
+                {
+                    "data" : "QFX-BR02.00-00"
+                }
+                ],
+                "sequence-number" : [
+                {
+                    "data" : "0x17"
+                }
+                ],
+                "checksum" : [
+                {
+                    "data" : "0x5a24"
+                }
+                ],
+                "remaining-lifetime" : [
+                {
+                    "data" : "460"
+                }
+                ],
+                "isis-node-segment" : [
+                {
+                }
+                ],
+                "isis-neighbor" : [
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-BR01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-PE01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-PE02.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                }
+                ],
+                "isis-prefix" : [
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.0/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.2/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.10/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.12/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "192.168.3.11/32"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "0"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::2/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "5"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::10/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::12/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "lsp-id" : [
+                {
+                    "data" : "MX-PE01.00-00"
+                }
+                ],
+                "sequence-number" : [
+                {
+                    "data" : "0x12"
+                }
+                ],
+                "checksum" : [
+                {
+                    "data" : "0xe9d3"
+                }
+                ],
+                "remaining-lifetime" : [
+                {
+                    "data" : "588"
+                }
+                ],
+                "isis-node-segment" : [
+                {
+                }
+                ],
+                "isis-neighbor" : [
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-BR01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "QFX-BR02.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "10"
+                    }
+                    ]
+                }
+                ],
+                "isis-prefix" : [
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.4/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.12/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "10"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "192.168.3.12/32"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "0"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::4/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::12/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "10"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "lsp-id" : [
+                {
+                    "data" : "MX-RR01.00-00"
+                }
+                ],
+                "sequence-number" : [
+                {
+                    "data" : "0x10"
+                }
+                ],
+                "checksum" : [
+                {
+                    "data" : "0x46e3"
+                }
+                ],
+                "remaining-lifetime" : [
+                {
+                    "data" : "486"
+                }
+                ],
+                "isis-node-segment" : [
+                {
+                }
+                ],
+                "isis-neighbor" : [
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-BR01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                }
+                ],
+                "isis-prefix" : [
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.8/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "192.168.3.14/32"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "0"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::8/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "lsp-id" : [
+                {
+                    "data" : "MX-PE02.00-00"
+                }
+                ],
+                "sequence-number" : [
+                {
+                    "data" : "0x12"
+                }
+                ],
+                "checksum" : [
+                {
+                    "data" : "0xb1dc"
+                }
+                ],
+                "remaining-lifetime" : [
+                {
+                    "data" : "643"
+                }
+                ],
+                "isis-node-segment" : [
+                {
+                }
+                ],
+                "isis-neighbor" : [
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "MX-BR01.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                },
+                {
+                    "is-neighbor-id" : [
+                    {
+                        "data" : "QFX-BR02.00"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ]
+                }
+                ],
+                "isis-prefix" : [
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.6/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "10.10.10.10/31"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "IP"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "192.168.3.15/32"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "0"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::6/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                },
+                {
+                    "attributes" : {"xmlns" : "http://xml.juniper.net/junos/17.4R1/junos-routing",
+                                    "junos:style" : "normal"
+                                   },
+                    "protocol-name" : [
+                    {
+                        "data" : "V6"
+                    }
+                    ],
+                    "address-prefix" : [
+                    {
+                        "data" : "2a04:e802:3:6000::10/127"
+                    }
+                    ],
+                    "metric" : [
+                    {
+                        "data" : "20"
+                    }
+                    ],
+                    "prefix-flag" : [
+                    {
+                        "data" : "Internal"
+                    }
+                    ],
+                    "prefix-status" : [
+                    {
+                        "data" : "up"
+                    }
+                    ]
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}

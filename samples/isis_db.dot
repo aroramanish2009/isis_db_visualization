@@ -1,0 +1,21 @@
+digraph finite_state_machine {
+    rankdir=TB;
+    edge [dir="both"]
+    concentrate=true
+    node [shape = circle];
+    node [shape = doublecircle, color = green, style = filled]; QFX_BR02 MX_BR01 ;
+    node [shape = doublecircle, color = yellow, style = filled]; MX_PE01 MX_PE02 ;
+    node [shape = doublecircle, color = blue, style = filled]; MX_RR01 ;
+    MX_BR01 -> QFX_BR02 [ label = "MX_BR01-QFX_BR02" ];
+    MX_BR01 -> MX_PE01 [ label = "MX_BR01-MX_PE01" ];
+    MX_BR01 -> MX_RR01 [ label = "MX_BR01-MX_RR01" ];
+    MX_BR01 -> MX_PE02 [ label = "MX_BR01-MX_PE02" ];
+    QFX_BR02 -> MX_BR01 [ label = "QFX_BR02-MX_BR01" ];
+    QFX_BR02 -> MX_PE01 [ label = "QFX_BR02-MX_PE01" ];
+    QFX_BR02 -> MX_PE02 [ label = "QFX_BR02-MX_PE02" ];
+    MX_PE01 -> MX_BR01 [ label = "MX_PE01-MX_BR01" ];
+    MX_PE01 -> QFX_BR02 [ label = "MX_PE01-QFX_BR02" ];
+    MX_RR01 -> MX_BR01 [ label = "MX_RR01-MX_BR01" ];
+    MX_PE02 -> MX_BR01 [ label = "MX_PE02-MX_BR01" ];
+    MX_PE02 -> QFX_BR02 [ label = "MX_PE02-QFX_BR02" ];
+}
