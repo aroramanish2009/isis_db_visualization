@@ -11,6 +11,7 @@ isis_db_visualize.py python3 script converts [JUNOS "show isis database detail |
 ## Sample .png generated from [sample dot file](samples/isis_db.dot)
 <fig>
 <figcaption text-align: "center"> isis_db.png </figcaption>
+<img src = "samples/isis_db.png" alt = "missing" />
 </fig><br>
 
 ## Usage
