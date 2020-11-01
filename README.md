@@ -6,7 +6,7 @@ Version: Revision: 0.1
 ```
 
 ## Interpretation
-isis_db_visualize.py python3 script converts [JUNOS "show isis database detail | display json"](https://www.juniper.net/documentation/en_US/bti-series/bti78004.3/topics/reference/general/r-7800-cliref-show-isis-database.html) output into dot format that can visualized using [Graphviz](https://graphviz.org/)
+isis_db_visualize.py Python3 script converts [JUNOS "show isis database detail | display json"](https://www.juniper.net/documentation/en_US/bti-series/bti78004.3/topics/reference/general/r-7800-cliref-show-isis-database.html) output into dot format that can visualized using [Graphviz](https://graphviz.org/)
 
 ## Sample .png auto generated from [sample dot file](samples/isis_db.dot)
 <fig>
@@ -17,7 +17,7 @@ isis_db_visualize.py python3 script converts [JUNOS "show isis database detail |
 ## Usage
 * Clone the repository on system with Python3
 * Create text file with output of "show isis database detail | display json"
-* Run as shown in the screen capture below. Customization field is optional and searches for a regular expression to change color. 
+* Run as shown in the screen capture below. Customization field is optional and searches for a regular expression to change color 
 <fig1>
 <figcaption text-align: "center"> Usage Screen Capture: </figcaption>
 <img src = "images/cmd1.png" alt = "missing" />
@@ -29,9 +29,10 @@ isis_db_visualize.py python3 script converts [JUNOS "show isis database detail |
 <img src = "images/cmd-convert.png" alt = "missing" />
 </fig2><br>
 
-## Graphviz Install
+# Graphviz Install
 Graphiz can be easily installed on your choice of operating system as shown [here](https://graphviz.org/download/)
-Caveats
-* Windows 10 Install is avilable [here](https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/Win32/)
+
+## Caveats
+* Windows 10 Install is available [here](https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/Win32/)
 * Run **dot.exe -c** post installation inside Graphiz installed directory
 * Ubuntu requires **libgts-dev** to run sfdp 
